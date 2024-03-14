@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: antiquewhite;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row; 
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .main-image {
+            flex: 0 0 30%;
+            max-width: 45%;
+            margin-right: 20px; 
+        }
+        .name {
+            margin-top: 10px; 
+            position: relative; 
+            left: 12%; 
+            
+        }
+
+        
+        .about-me {
+            flex: 1; 
+            padding: 20px;
+        }
+        .about-me h2 {
+            color: #333;
+        }
+        .hobbies {
+            margin-top: 20px; 
+        }
+        .hobbies h2 {
+            color: #333;
+        }
+     
+        .skills h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .calendar, .location, .facebook, .phonenumber, .email {
+            width: 25px;
+            height: auto;
+            margin-right: 10px; 
+            display: inline-block;
+            vertical-align: middle; 
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+  
+</header>
+
+<section class="container">
+    <div class="main-image">
+        <img src="image.jpg" alt="Main Image">
+        <b>     JAN REY LANCE I SORIANO</b>
+    </div>
+    <section class="about-me">
+        <h2>ABOUT ME</h2>
+        <p>I am a student of Isabela State University currently pursuing Bachelor of Science in 
+            Information Technology.I took this degree because I want to learn different programming languages.</p>
+        
+        <section class="hobbies">
+            <h2>HOBBIES</h2>
+            <ul>
+                <li>Playing Online Games</li>
+                <li>Watching Movies</li>
+                <li>Listening To Music</li>
+                <li>Playing Basketbal</li>
+            
+            </ul>
+        </section>
+        
+        <section class="skills">
+            <h2>SKILLS BACKGROUND</h2>
+            <ul>
+                <li>Know how to use database using XAMPP</li>
+                <li>Have knowledge in javascript</li>
+                <li>Experience using microsoft word and other office tools</li>
+              <li>Im familiar at java at begginer level</li>
+            </ul>
+        </section>
+    </section>
+</section>
+  
+   
+
+
+<section class="container">
+    <div class=""> 
+        <img src="facebooklogo.png" alt="Facebook Logo" class="facebook"> <span class="facebook-text">Jan Rey Lance I Soriano</span>
+        <br>
+        <img src="email.png" alt="Email Logo" class="email"> <span class="email-text">janreylance@gmail.com</span>
+        <BR>
+        <img src="calendar.png" alt="Calendar Logo" class="calendar"> <span class="calendar-text">January 8, 2002</span>
+        <BR>
+        <img src="phonenumber.png" alt="Phone Number Logo" class="phonenumber"> <span class="phonenumber-text">09274177758</span>
+        <br>
+        <img src="location.png" alt="location logo" class="location"> <span class="location-text">Lingaling, Santa Maria, Isabela</span>
+        <br>
+    </div>
+</section>
+
+</body>
+</html>
